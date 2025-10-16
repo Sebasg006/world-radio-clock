@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Clock from './clock';
 
-const app = ()=>{
+const App = () => {
   return(
     <div className='container'>
-      <clock/>
+      <Clock/>
     </div>
   );
 };
